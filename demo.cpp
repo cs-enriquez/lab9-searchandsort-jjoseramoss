@@ -9,6 +9,8 @@ int main() {
 
 	int myArr[5] = {5, 0, 4, 6, 3};
 	double myDarray[5] = {5.0, 0.0, 4.0, 6.0, 3.0};
+	//check
+	cout << minFind(myDarray, 5) << endl;
 	string myArr2[3] = {"Hello.", "How's", "it going?"};
 	char myArr3[6] = {'g', 'a', 'b', 'a', 't', 'a'};
 
@@ -18,7 +20,7 @@ int main() {
 
 	cout << "Array sorting test: " << endl << endl;
 
-	printArray(myDarray, 5);
+	//printArray(myDarray, 5);
 
 	newSort(myDarray, 5);
 	printArray(myDarray, 5);
